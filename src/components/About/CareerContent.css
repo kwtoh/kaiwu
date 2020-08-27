@@ -1,0 +1,28 @@
+.career-content h1 {
+    border-bottom: 1px solid black;
+    font-size: 50px;
+    font-weight: normal;
+    text-align: center;
+}
+
+.career-content {
+    margin: 10% 20% 20% 20%;
+}
+
+.career-experiences {
+    overflow-y: scroll;
+    height: 100vh;
+    padding-bottom: 20vh;
+    padding-left: 10px;
+    border-left: 1px solid black;
+}
+
+.experience {
+    text-align: left;
+    border-bottom: 1px solid black;
+}
+
+.experience li {
+    text-align: left;
+    padding-top: 5px;
+}
