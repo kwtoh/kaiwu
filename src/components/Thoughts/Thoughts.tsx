@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import ThoughtSearch from "./ThoughtSearch";
 import ThoughtsDisplay from "./ThoughtsDisplay";
 
@@ -6,23 +6,13 @@ const thoughtsStyle = {
   margin: "5em",
 };
 
-export class Thoughts extends Component {
-  render() {
-    return (
-      <>
-        <div style={thoughtsStyle}>
-          <span>
-            <ThoughtSearch />
-          </span>
-          <span>
-            A place where I pen down some of the thoughts that goes through my
-            mind.
-          </span>
-        </div>
-        <ThoughtsDisplay />
-      </>
-    );
-  }
+export default function Thoughts({ thoughts }) {
+  return (
+    <>
+      <div style={thoughtsStyle}>
+        <ThoughtSearch />
+      </div>
+      <ThoughtsDisplay thoughts={thoughts} />
+    </>
+  );
 }
-
-export default Thoughts;

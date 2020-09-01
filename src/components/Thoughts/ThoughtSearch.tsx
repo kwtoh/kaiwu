@@ -1,20 +1,30 @@
-import React, { Component } from "react";
-import { TextField } from "@material-ui/core";
+import React from "react";
+import { createStyles, makeStyles, Theme } from "@material-ui/core/styles";
+import TextField from "@material-ui/core/TextField";
 
-export class ThoughtSearch extends Component {
-  render() {
-    return (
-      <div>
-        <form className="thought-search" noValidate autoComplete="off">
-          <TextField
-            id="outlined-basic"
-            label="Search my thoughts..."
-            variant="outlined"
-          />
-        </form>
-      </div>
-    );
-  }
+const useStyles = makeStyles((theme: Theme) =>
+  createStyles({
+    root: {
+      "& > *": {
+        margin: theme.spacing(1),
+        width: "25ch",
+      },
+      float: "left",
+    },
+  })
+);
+
+export default function ThoughtSearch() {
+  const classes = useStyles();
+  return (
+    <div>
+      <form className={classes.root} noValidate autoComplete="off">
+        <TextField
+          id="thought-search"
+          label="Search my thoughts..."
+          variant="outlined"
+        />
+      </form>
+    </div>
+  );
 }
-
-export default ThoughtSearch;

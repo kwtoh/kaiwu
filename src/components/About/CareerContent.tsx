@@ -15,7 +15,11 @@ export const CareerContent = () => {
           <div className="experience">
             <h2>Government Technology Agency Singapore</h2>
             <h2>MyCareersFuture</h2>
-            <p>MCF is a jobs portal that aims to provide Singapore Citizens and Permanent Residents with a free job search service that matches them to relevant jobs based on the jobseeker’s skills.</p>
+            <p>
+              MCF is a jobs portal that aims to provide Singapore Citizens and
+              Permanent Residents with a free job search service that matches
+              them to relevant jobs based on the jobseeker’s skills.
+            </p>
             <h3>Associate Software Engineer</h3>
             <h4>Jun 2020 - Present</h4>
             <h4>Technologies Used</h4>
@@ -53,8 +57,8 @@ export const CareerContent = () => {
                 for PII and GDPR related patterns.
               </li>
               <li>
-                Developed code for Cloud Storage API interaction with the software
-                using REST API and OAuth technologies.
+                Developed code for Cloud Storage API interaction with the
+                software using REST API and OAuth technologies.
               </li>
               <li>
                 Developed code in many aspects and parts of the software for the
@@ -69,7 +73,7 @@ export const CareerContent = () => {
                 MongoDB, MySQL, InterSystemsCache, MsSQL
               </li>
             </ul>
-           </div>
+          </div>
         </div>
       </div>
     </>

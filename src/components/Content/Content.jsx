@@ -6,7 +6,7 @@ import Creations from "../Creations/Creations";
 // import About from "../About/About.jsx";
 import Thoughts from "../Thoughts/Thoughts";
 import images from "../imageslist";
-import "tachyons";
+import thoughts from "../thoughtslist";
 
 const shuffle = (array) => {
   array.sort(() => Math.random() - 0.5);
@@ -30,7 +30,7 @@ const Content = () => {
           <Projects />
         </Route> */}
         <Route path="/thoughts">
-          <Thoughts />
+          <Thoughts thoughts={thoughts} />
         </Route>
       </Switch>
     </>
