@@ -4,6 +4,7 @@ import Home from "../Home/Home";
 import Creations from "../Creations/Creations";
 // import Projects from "../Projects/Projects";
 // import About from "../About/About.jsx";
+import Thoughts from "../Thoughts/Thoughts";
 import images from "../imageslist";
 import "tachyons";
 
@@ -28,6 +29,9 @@ const Content = () => {
         {/* <Route path="/projects">
           <Projects />
         </Route> */}
+        <Route path="/thoughts">
+          <Thoughts />
+        </Route>
       </Switch>
     </>
   );

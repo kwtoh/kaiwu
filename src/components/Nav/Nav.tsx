@@ -27,6 +27,10 @@ const Nav = () => {
         <NavLink activeStyle={{ color: "black" }} to="/projects">
           Projects
         </NavLink> */}
+        <FiberManualRecordIcon className="nav-divider" />
+        <NavLink activeStyle={{ color: "black" }} to="/thoughts">
+          Thoughts
+        </NavLink>
       </nav>
     </>
   );
