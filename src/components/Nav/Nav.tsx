@@ -16,10 +16,10 @@ const Nav = () => {
           Home
         </NavLink>
         <FiberManualRecordIcon className="nav-divider" />
-        {/* <NavLink activeStyle={{ color: "black" }} to="/about">
-          About
+        <NavLink activeStyle={{ color: "black" }} to="/resume">
+          Resume
         </NavLink>
-        <FiberManualRecordIcon className="nav-divider" /> */}
+        <FiberManualRecordIcon className="nav-divider" />
         <NavLink activeStyle={{ color: "black" }} to="/creations">
           Creations
         </NavLink>

@@ -3,7 +3,7 @@ import { Switch, Route } from "react-router-dom";
 import Home from "../Home/Home";
 import Creations from "../Creations/Creations";
 // import Projects from "../Projects/Projects";
-// import About from "../About/About.jsx";
+import Resume from "../Resume/Resume";
 import images from "../imageslist";
 import "tachyons";
 
@@ -19,9 +19,9 @@ const Content = () => {
         <Route exact path="/">
           <Home />
         </Route>
-        {/* <Route path="/about">
-          <About />
-        </Route> */}
+        <Route path="/resume">
+          <Resume />
+        </Route>
         <Route path="/creations">
           <Creations images={images} />
         </Route>
