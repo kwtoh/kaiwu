@@ -1,0 +1,12 @@
+.resume-grid {
+  margin-top: 50px;
+  margin-right: 50px;
+  overflow-y: scroll;
+  height: 95vh;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.resume-grid::-webkit-scrollbar {
+  display: none;
+}

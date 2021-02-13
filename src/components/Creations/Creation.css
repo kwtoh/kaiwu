@@ -22,6 +22,12 @@
   margin-bottom: 50px;
   overflow-y: scroll;
   height: 100vh;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.photos-grid::-webkit-scrollbar {
+display: none;
 }
 
 @media only screen and (min-width: 375px) {
@@ -31,5 +37,9 @@
     margin-left: 5px;
     overflow-y: scroll;
     height: 100vh;
+  }
+
+  .photos-grid::-webkit-scrollbar {
+    display: none;
   }
 }
